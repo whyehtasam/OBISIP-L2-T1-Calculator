@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         display.value = eval(display.value);
                     }
                     catch (error) {
-                        display.value = 'Error';
+                        display.value = 'Error!';
                     }
                     break;
                 // Add the button text to the display
