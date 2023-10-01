@@ -23,14 +23,13 @@
     height: 500px;
     display: grid;
     grid-template-columns: auto;
-    
     backdrop-filter: blur(2px);
 
     border: 0.7px solid #e0d9d92d;
     border-radius: 10px;
     box-shadow: 0px 25px 80px 0px rgba(48, 47, 47, 0.37);
     box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.596), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
-    
+
 
 
 
@@ -38,7 +37,7 @@
 
 .display {
     height: 14%;
-    margin:  15px auto 5px auto;
+    margin: 15px auto 5px auto;
     /* padding: 10px 0 0 0; */
     width: 88%;
 
@@ -52,10 +51,17 @@ input[type=text] {
     text-align: right;
     border-radius: 10px;
     border-style: none;
-    color: rgba(0, 0, 0, 0.74);
+    color: rgba(240, 231, 231, 0.74);
+    letter-spacing: 2px;
     font-weight: 600;
     font-size: 27px;
     box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    background:rgba(255, 255, 255, 0.466);
+    border: 0.5px solid rgba(255, 255, 255, 0.144);
+    -webkit-box-shadow: inset 8.5px 17.5px 25.5px -5px #ebe4e446;
+    -moz-box-shadow: inset 8.5px 17.5px 25.5px -5px #e4dada5e;
+    box-shadow: inset 8.5px 17.5px 25.5px -5px #f3f1f165;
+
 }
 
 input[type=text]:focus {
@@ -72,8 +78,17 @@ input[type=button] {
     background: transparent;
     border: 0.5px solid rgba(255, 255, 255, 0.144);
     box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    cursor: pointer;
 
 
+}
+input[type=button]:hover{
+    box-shadow: inset;
+    -webkit-box-shadow: -1px 1px 17.5px 7px rgba(69, 66, 66, 0.28);
+-moz-box-shadow: -1px 1px 17.5px 7px rgba(69, 66, 66, 0.28);
+box-shadow: -1px 1px 17.5px 7px rgba(69, 66, 66, 0.28);
+  scale: 1.05;
+  transition: 0.2s ease-in-out;
 }
 
 .btns {
